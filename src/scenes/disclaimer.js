@@ -34,5 +34,5 @@ export default function disclaimer() {
         kaplay.pos(kaplay.center().x, kaplay.center().y + 300),
     ]);
  
-    kaplay.onButtonPress("jump", () => kaplay.go("main-menu"));
+    kaplay.onButtonPress("jump", () => kaplay.go("menu"));
 }
