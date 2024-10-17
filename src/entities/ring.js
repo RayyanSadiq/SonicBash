@@ -12,7 +12,11 @@ export function makeRing(pos) {
         "ring",
         {
             setEvents() {
-                 
+                this.onExitScreen(() => {
+                    if (this.pos.x < 0) {
+                        kaplay.destroy(this)
+                    }
+                })
             }
         }
     ])

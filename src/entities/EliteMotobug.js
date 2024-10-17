@@ -1,14 +1,14 @@
 import kaplay from "../kaplayContext";
 
-export function makeMotobug(pos) {
+export function makeEliteMotobug(pos) {
     return kaplay.add([
-        kaplay.sprite("motobug", {anim: "run"}),
+        kaplay.sprite("elite-motobug", {anim: "run"}),
         kaplay.area({ shape: new kaplay.Rect(kaplay.vec2(-6, 0), 28, 22) }),
         kaplay.scale(4),
         kaplay.anchor("center"),
         kaplay.pos(pos),
         kaplay.offscreen(),
-        kaplay.health(1),
+        kaplay.health(2),
         "enemy",
         
         {

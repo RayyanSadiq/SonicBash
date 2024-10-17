@@ -11,6 +11,12 @@ const kaplay = kaplayContext ({
         jump: {
             keyboard: ["space"],
             mouse: "left"
+        },
+        leftk: {
+            keyboard: ["a", "left"],
+        },
+        rightk: {
+            keyboard: ["d", "right"],
         }
     },
     debugKey: "y",

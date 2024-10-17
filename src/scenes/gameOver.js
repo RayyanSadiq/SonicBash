@@ -8,7 +8,7 @@ export default function gameOver(citySfx) {
     const currentScore = kaplay.getData("current-score")
 
     const rankGrades = ["F", "E", "D", "C", "B", "A", "S"]
-    const rankValues = [50, 80, 110, 200, 300, 400, 500]
+    const rankValues = [100, 250, 300, 400, 500, 600, 1000]
 
     let currentRank = "F"
     let bestRank = "F"
